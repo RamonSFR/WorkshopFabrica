@@ -3,7 +3,7 @@ from .models import jogo , loja
 from .serializer import JogoSerializer , LojaSerializer
 
 class jogoViewSet(viewsets.ModelViewSet):
-    querryset = jogo.objects.all()
+    queryset = jogo.objects.all()
     serializer_class = JogoSerializer
 
 class LojaViewSet(viewsets.ModelViewSet):
