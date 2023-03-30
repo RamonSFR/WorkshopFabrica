@@ -1,3 +1,16 @@
-1 - Ativar o servidor
-2 - baixar o insomnia
-3 - 
+1 - Baixar o Postgresql (Database)
+2 - Ativar o servidor (setup/settings.py)
+3 - baixar o insomnia
+4 - rodar o servidor
+5 - entrar no admin do django
+6 - criar novo cliente
+7 - colocar o link https://localhost/clientes no insomnia
+8 - requisitar um GET
+9 - Ver o arquivo Json do Imsonia
+10 - fazer o inverso (dar um POST do imsonia de um cliente em .Json para o servidor)
+**Se der erro no passo 10 colocar uma / na url**
+11 - requisitar get novamente e checar se retornaram os 2 clientes
+12 - Usar o PUT para atualizar os dados de um dos clientes
+** Se der erro adicionar um numero ex : Clientes/1/ **
+13 - testar e brincar com os outros méteodos http
+
