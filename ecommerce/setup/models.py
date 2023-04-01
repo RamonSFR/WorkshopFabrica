@@ -12,6 +12,7 @@ class Produto(models.Model):
     preco = models.DecimalField(max_digits=10,decimal_places=5)
     categoria = models.CharField(max_length=20)
     estoque = models.IntegerField()
+    loja = models.ForeignKey(Loja,on_delete=models.CASCADE,default=1) ### Relacionar o Produto com a Loja ###
 
     def __str__(self):
         return self.nome
